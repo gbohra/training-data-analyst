@@ -1,5 +1,5 @@
 #!/bin/bash -e
-
+echo "test gb 1314"
 for container in $(ls -d */ | sed 's%/%%g'); do
   cd $container
   echo "Building Docker container in $container"

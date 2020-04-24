@@ -21,7 +21,7 @@ fi
 
 
 PROJECT=$(gcloud config get-value project)
-BUCKET="${PROJECT}-1"
+BUCKET="${PROJECT}_cloudbuild-1"
 CLOUDRUN_URL=$1
 
 # Deploy Cloud Functions to monitor the bucket and invoke Cloud Run

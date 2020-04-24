@@ -21,7 +21,7 @@ fi
 
 
 PROJECT=$(gcloud config get-value project)
-BUCKET="${PROJECT}-kfpdemo"
+BUCKET="${PROJECT}_cloudbuild-1"
 REGION=us-central1
 PIPELINES_HOST=$1
 HPARAM_JOB=$2

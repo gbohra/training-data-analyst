@@ -2,7 +2,7 @@
 
 # CHANGE
 PROJECT=$(gcloud config get-value project)
-BUCKET="${PROJECT}-kfpdemo"
+BUCKET="${PROJECT}_cloudbuild-1"
 
 # test cloud function
 echo "Creating new file in gs://${BUCKET}"

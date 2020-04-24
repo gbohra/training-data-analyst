@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # CHANGE
-BUCKET="ai-analytics-solutions-kfpdemo"
+PROJECT=$(gcloud config get-value project)
+BUCKET="${PROJECT}-kfpdemo"
 
 # test cloud function
 echo "Creating new file in gs://${BUCKET}"

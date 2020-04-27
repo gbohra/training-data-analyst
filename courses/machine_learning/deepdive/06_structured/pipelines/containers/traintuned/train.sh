@@ -41,7 +41,7 @@ python -m trainer.task \
   --nnsize=$NNSIZE \
   --batch_size=$BATCHSIZE \
   --nembeds=$NEMBEDS \
-  --train_examples=200000
+  --train_examples=200
 
 
 # write output file for next step in pipeline

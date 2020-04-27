@@ -9,7 +9,6 @@ import os
 
 def to_csv(rowdict):
   # Pull columns from BQ and create a line
-  echo ("test")
   import hashlib
   import copy
   CSV_COLUMNS = 'weight_pounds,is_male,mother_age,plurality,gestation_weeks'.split(',')
